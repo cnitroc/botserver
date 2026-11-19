@@ -2,8 +2,6 @@
   "compilerOptions": {
     /* Language and Environment */
     "target": "ES2022",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
-
     /* Modules */
     "module": "NodeNext",
     "moduleResolution": "NodeNext",

@@ -1,5 +1,13 @@
 {
+  "compilerOptions": {
+    "lib": ["deno.window"]
+  },
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-env --env-file=.env src/index.ts",
+    "start": "deno run --allow-net --allow-env --env-file=.env src/index.ts"
+  },
   "imports": {
+    "grammy": "npm:grammy@^1.46.0",
     "telegraf": "npm:telegraf@^4.16.3"
   }
 }
